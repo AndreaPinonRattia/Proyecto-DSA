@@ -1,24 +1,25 @@
-# REST API de UPZ-APOCALYPSE
+# REST API y Web de UPZ-APOCALYPSE
 
-LISTO PARA PRODUCCION
+En este proyecto hemos creado un juego que funciona tanto en una interfaz web como en una aplicación Android gestionado mediante una REST API. Además, puede funcionar en un entorno de producción local y almacena los datos a través de una base de datos de MariaDB (HeidiSQL), que contiene tres tablas: User, Inventory e Item.
 
-- register.html
-- index.html (login)
-- main.html: juego, tienda, inventario, actualizar cuenta, eliminar cuenta y log out
+Operaciones:
 
-Funciones
+GET 
+- Obtener lista de usuarios.
+- Obtener lista de objetos en la tienda.
+- Obtener inventario de un usuario.
+- Obtener lista de denuncias.
+- Obtener lista de consultas.
+- Obtener lista de preguntas frecuentes (FAQs).
 
--	Registrar(save): Sí
-
--	Login(get): Sí
-
--	Borrar usuario: Sí -> con BBDD
-
--	Actualizar usuario: Sí -> con BBDD
-
--	Shop(findall): Sí
-
--	Minimo 2: Sí
-
-
-
+POST
+- Registrar un nuevo usuario.
+- Iniciar sesión con credenciales.
+- Eliminar usuario con credenciales.
+- Realizar una consulta sobre la app.
+  
+PUT 
+- Comprar objeto.
+- Cancelar compra de objeto.
+- Actualizar usuario.
+- Enviar una denuncia.
